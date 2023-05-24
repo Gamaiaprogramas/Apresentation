@@ -1,0 +1,37 @@
+body{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+     ul {
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      align-items: center;
+      padding: 16px;
+     }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+h1{
+    text-align: center;
+    color: green;
+}
+.container{
+    padding: 0px 50px;
+}
+
+  nav a:hover{
+    color:green;
+  }
+  footer{
+    display: flex;
+    justify-content: center;
+  }
+  footer a{
+    margin: px;
+    text-align: center;
+   
+  }

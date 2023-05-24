@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(#00ff9d, rgb(255, 0, 0));
+    height: auto;
+    cursor: crosshair;
+}
+.centralizer{
+    text-align: center;
+}
+header h1{
+    color: red;
+    text-decoration: underline;
+}
+main li{
+    font-size: 35px;
+    text-align: left;
+}
+.rocket{
+    text-align: left;
+    border-radius: 10px;
+    border: solid #00ff9d;
+    display: flex;
+    filter: sepia(10%);
+}
+.potato{
+    display: flex;
+    text-align: left;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: rgb(19, 19, 255) ;
+    color: white;
+    border-color:white ;
+}
+.negão{
+    height:200px;
+    width: 300px;
+    display: flex;
+    border-radius: 30px;
+    border: solid rgb(78, 18, 18);
+    filter: opacity(75%);
+}
+.img{
+    background: radial-gradient(rgb(0, 0, 0), rgb(255, 0, 0));
+    display: flex;
+    text-align: left;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+}

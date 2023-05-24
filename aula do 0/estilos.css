@@ -1,0 +1,80 @@
+::-webkit-scrollbar{
+    background:linear-gradient(white,black);
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+   background-color: rgb(136, 7, 7);
+   border-radius: 20px;
+   height: 10px;
+}
+
+body{
+    background: linear-gradient(white,black);
+    height: auto;
+}
+
+.centro{
+    text-align: center;
+}
+h1{
+    color: red;
+    text-decoration: underline;
+    text-shadow: 1px 1px black;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+main img{
+    height: 200px;
+    width: 300px;
+    border-radius: 100%;
+    border: solid 10px rgb(71, 6, 6);
+}
+main p3{
+    color: white;
+    height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large ;
+}
+main p{
+    color: white;
+    text-decoration: underline;
+}
+main input{
+    color: white;
+    background-color: red;
+    border-color: black;
+    box-shadow: 2px 2px black;
+    border-radius: 10%;
+}
+main button{
+    color: white;
+    background-color: black;
+    border-color: red;
+    box-shadow: 2px 2px red;
+}
+footer{
+    padding: 50px;
+text-align:center;
+}
+
+.result{
+    background-color: black;
+    font-size: xx-large;
+}
+.imagem-container {
+    position: relative; /* Define a posição relativa para o container */
+  }
+  
+  .imagem-container img {
+    position: absolute; /* Define a posição absoluta para as imagens */
+  }
+  
+  .imagem-container img:first-child {
+    z-index: 1; /* Define a ordem de empilhamento da primeira imagem */
+  }
+  .cassio{
+    display:none;
+  }
+  .triste{
+    display: none;
+    filter: grayscale();
+  }

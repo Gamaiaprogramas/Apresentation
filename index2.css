@@ -1,0 +1,143 @@
+::-webkit-scrollbar{
+  background-color: black;
+  width: 7px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb{
+ background-color: rgb(7, 136, 18);
+ border-radius: 20px;
+ height: 10px;
+}
+
+body{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 800px;
+  }
+     ul {
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      align-items: center;
+      padding: 16px;
+     }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+h1{
+    text-align: center;
+    color: green;
+}  
+h2{
+    text-align: center;
+    color : white;
+    font:xx-large;
+}
+p{
+    text-size-adjust: 10;
+}
+nav a:hover{
+    color: green;
+}
+.container{
+    padding: 0px 50px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+  }
+  footer a {
+    margin: 40px;
+    text-align: center;
+  }
+  footer p {
+    color: green;
+    text-decoration:underline;
+  }
+
+  .hamburguer button{
+    
+    background-color: purple;
+    color: white;
+    border-color: purple;
+    border-radius: 25%;
+    box-shadow: 1px 2px  white;
+    width: 200px;
+    font-size: 30px;
+    text-decoration: underline;
+
+  }
+  
+  .tigrinho button{
+
+    color: black;
+    background-color: yellow;
+    width: 200px;
+    font-size:30px;
+    border-color: black;
+    border-radius: 15%;
+    box-shadow: 2px 2px yellow;
+    text-decoration: underline;
+  }
+  .dudu button{
+
+    color: white;
+    background-color:green;
+    width: 200px;
+    font-size:30px;
+    border-color: black;
+    border-radius: 15%;
+    box-shadow: 2px 2px rgb(2, 77, 24);
+    text-decoration: underline;
+  }
+  
+  .coringas button{
+
+    color: rgb(255, 3, 3);
+    background: linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+    width: 200px;
+    font-size:30px;
+    border-color: rgb(66, 7, 7);
+    border-radius: 15%;
+    box-shadow: 2px 2px rgb(46, 42, 42);
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .hamburguer img{
+    border-radius: 50%;
+    border: solid 7px purple;
+  }
+
+  .tigrinho img{
+    border-radius: 25%;
+    border: solid 7px yellow;
+}
+
+.dudu img{
+  border-radius: 30%;
+  border: solid 7px green;
+}
+.coringas img{
+  border-radius: 15%;
+  border:double 10px;
+  border-color: red;
+}
+.goffya img{
+  border-radius: 100px;
+  display: flex;
+  border: solid rgb(97, 13, 13) 10px;
+
+}
+.goffya button{
+  color: white;
+  border-radius: 10px;
+  font-size: 30px;
+  width: 150px;
+  background-color: black;
+  border-color: white;
+  box-shadow: 2px 2px white;
+  text-decoration: underline;
+}

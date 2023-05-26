@@ -28,10 +28,15 @@ h1{
   }
   footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly  ;
+    margin-left:130px;
   }
   footer a{
     margin: px;
     text-align: center;
    
+  }
+  .contact-hover:hover{
+    color: green;
+    text-decoration: underline;
   }

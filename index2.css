@@ -116,12 +116,23 @@ footer{
     border: solid 7px yellow;
 }
 
-.dudu img{
-  border-radius: 30%;
-  border: solid 7px green;
-}
 .coringas img{
   border-radius: 15%;
   border:double 10px;
   border-color: red;
+}
+.DeskIndoor-css{
+  filter: invert();
+  border: solid black;
+}
+
+.DeskIndoor-css button{
+  filter: invert();
+  width: 170px;
+  font-size:30px;
+  border-radius: 10px;
+
+}
+.DeskIndoor-css button :hover{
+  filter: opacity(10%);
 }

@@ -125,19 +125,3 @@ footer{
   border:double 10px;
   border-color: red;
 }
-.goffya img{
-  border-radius: 100px;
-  display: flex;
-  border: solid rgb(97, 13, 13) 10px;
-
-}
-.goffya button{
-  color: white;
-  border-radius: 10px;
-  font-size: 30px;
-  width: 150px;
-  background-color: black;
-  border-color: white;
-  box-shadow: 2px 2px white;
-  text-decoration: underline;
-}

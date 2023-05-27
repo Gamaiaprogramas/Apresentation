@@ -1,3 +1,14 @@
+::-webkit-scrollbar{
+  background-color: black;
+  width: 7px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb{
+ background-color: rgb(7, 136, 18);
+ border-radius: 20px;
+ height: 10px;
+}
+
 body{
   color: white;
   background-color: black;
@@ -47,5 +58,15 @@ nav a:hover{
   color: green;
 }
 footer p:hover{
+  color: green;
+}
+.links{
+  color: green;
+  text-decoration: underline white;
+}
+.GitHub{
+  filter: invert(100%);
+}
+.links-1{
   color: green;
 }

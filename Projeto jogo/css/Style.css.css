@@ -106,7 +106,7 @@ button{
     animation: infinite linear;
 }
 @keyframes tigrao{
-    form{
+    from{
      right : -100%;
     }
     to{
